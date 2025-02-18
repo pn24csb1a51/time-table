@@ -1,26 +1,58 @@
-table, th, td {
-    border: 1px solid black;
-}
-
-table {
-    width: 90%;
-    margin: 20px auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
+.heading {
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 20px auto;
+}
+
+.heading h1 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+
+table {
+    width: 95%;
+    max-width: 1300px;
+    height: auto;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #343a40;
+    padding: 15px;
+    font-size: 18px;
+}
+
 th {
-    height: 50px;
-    background-color: #f2f2f2;
-    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    height: 60px;
 }
 
 td {
-    padding: 10px;
-}
-
-#table1 {
-    width: 1000px;
-    height: 500px;
+    background-color: #ffffff;
+    color: #333;
+    height: 50px;
 }
 
 .food {
@@ -29,23 +61,35 @@ td {
     font-weight: bold;
 }
 
-.table2 {
-    width: 80%;
-    margin: 20px auto;
-    height: 500px;
-}
-
-#row {
-    text-decoration: underline;
-    text-decoration-color: black;
-}
-
-h1, h2 {
-    text-align: center;
-    color: #333;
-}
-
 tr:hover {
-    background-color: #e0e0e0;
+    background-color: #d1ecf1;
     transition: 0.3s;
+}
+
+.table2 {
+    margin-top: 40px;
+    width: 85%;
+}
+
+.table2 th {
+    background-color: #28a745;
+}
+
+
+
+    th, td {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+
+td:hover{
+    background-color: rgba(128, 128, 128, 0.77);
+  
+}
+.food:hover{
+    background-color: yellow;
 }
